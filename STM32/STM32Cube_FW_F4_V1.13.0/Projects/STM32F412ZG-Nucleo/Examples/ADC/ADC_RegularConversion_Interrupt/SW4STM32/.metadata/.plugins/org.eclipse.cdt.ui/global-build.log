@@ -1,0 +1,192 @@
+20:22:07 **** Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" -o "Example/User/main.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_hal_msp.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Example/User/stm32f4xx_hal_msp.d" -MT"Example/User/stm32f4xx_hal_msp.o" -o "Example/User/stm32f4xx_hal_msp.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_hal_msp.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_hal_msp.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_it.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Example/User/stm32f4xx_it.d" -MT"Example/User/stm32f4xx_it.o" -o "Example/User/stm32f4xx_it.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_it.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/stm32f4xx_it.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/SW4STM32/startup_stm32f412zx.s
+Invoking: MCU GCC Assembler
+%cd%
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -g -o "Example/SW4STM32/startup_stm32f412zx.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/SW4STM32/startup_stm32f412zx.s"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/SW4STM32/startup_stm32f412zx.s
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_adc_ex.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_cortex.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_dma_ex.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_gpio.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_rcc_ex.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o" -o "Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_uart.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/system_stm32f4xx.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/CMSIS/system_stm32f4xx.d" -MT"Drivers/CMSIS/system_stm32f4xx.o" -o "Drivers/CMSIS/system_stm32f4xx.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/system_stm32f4xx.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/system_stm32f4xx.c
+ 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/BSP/STM32412ZG_Nucleo/stm32f4xx_nucleo_144.d" -MT"Drivers/BSP/STM32412ZG_Nucleo/stm32f4xx_nucleo_144.o" -o "Drivers/BSP/STM32412ZG_Nucleo/stm32f4xx_nucleo_144.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144/stm32f4xx_nucleo_144.c
+ 
+Building target: STM32412ZG_Nucleo.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F412ZGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "STM32412ZG_Nucleo.elf" @"objects.list"  
+Finished building target: STM32412ZG_Nucleo.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32412ZG_Nucleo.elf" "STM32412ZG_Nucleo.bin"
+arm-none-eabi-size "STM32412ZG_Nucleo.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4596	     28	   1644	   6268	   187c	STM32412ZG_Nucleo.elf
+ 
+20:22:47 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:23:20 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:27:22 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:28:35 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:28:58 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:31:32 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:32:05 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+20:35:12 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:24:59 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" -o "Example/User/main.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+ 
+Building target: STM32412ZG_Nucleo.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F412ZGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "STM32412ZG_Nucleo.elf" @"objects.list"  
+Finished building target: STM32412ZG_Nucleo.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32412ZG_Nucleo.elf" "STM32412ZG_Nucleo.bin"
+arm-none-eabi-size "STM32412ZG_Nucleo.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4596	     28	   1644	   6268	   187c	STM32412ZG_Nucleo.elf
+ 
+19:25:13 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:25:55 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:34:11 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:34:29 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:34:34 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.
+19:34:55 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+Building file: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412Zx -DUSE_HAL_DRIVER -DUSE_STM32F4XX_NUCLEO_144 -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/CMSIS/Include" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Drivers/BSP/STM32F4xx_Nucleo_144"  -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" -o "Example/User/main.o" "A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c"
+Finished building: A:/Engineering/DataSheets/STM32/STM32Cube_FW_F4_V1.13.0/Projects/STM32F412ZG-Nucleo/Examples/ADC/ADC_RegularConversion_Interrupt/Src/main.c
+ 
+Building target: STM32412ZG_Nucleo.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32F412ZGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "STM32412ZG_Nucleo.elf" @"objects.list"  
+Finished building target: STM32412ZG_Nucleo.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32412ZG_Nucleo.elf" "STM32412ZG_Nucleo.bin"
+arm-none-eabi-size "STM32412ZG_Nucleo.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4792	     28	   1668	   6488	   1958	STM32412ZG_Nucleo.elf
+ 
+19:35:32 **** Incremental Build of configuration Debug for project STM32412ZG_Nucleo ****
+make all 
+make: Nothing to be done for `all'.

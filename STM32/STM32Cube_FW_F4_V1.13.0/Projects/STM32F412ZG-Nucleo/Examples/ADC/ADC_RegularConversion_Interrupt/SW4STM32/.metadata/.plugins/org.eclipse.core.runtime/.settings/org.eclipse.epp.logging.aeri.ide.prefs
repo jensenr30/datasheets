@@ -1,0 +1,13 @@
+anonymizeMessages=false
+anonymizeStackTraces=true
+configured=true
+eclipse.preferences.version=1
+reporterEmail=jensenr30spam@gmail.com
+reporterName=Ryan
+resetSendMode=KEEP
+resetSendModeOn=0
+sendMode=BACKGROUND
+servers/org.eclipse.epp.logging.aeri.ide.server/anonymizeStackTraces=true
+servers/org.eclipse.epp.logging.aeri.ide.server/configured=true
+servers/org.eclipse.epp.logging.aeri.ide.server/reporterEmail=jensenr30spam@gmail.com
+servers/org.eclipse.epp.logging.aeri.ide.server/reporterName=Ryan

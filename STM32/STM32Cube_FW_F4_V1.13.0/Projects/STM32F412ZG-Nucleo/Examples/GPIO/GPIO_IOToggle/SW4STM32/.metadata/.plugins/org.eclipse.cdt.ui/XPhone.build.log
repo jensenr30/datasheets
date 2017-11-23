@@ -1,0 +1,51 @@
+19:49:54 **** Incremental Build of configuration Debug for project XPhone ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+%cd%
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F412ZGTx -DSTM32F4 -DNUCLEO_F412ZG -DSTM32 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F412Zx -I"A:/Programming/XPhone/micro/stm/XPhone/inc" -I"A:/Programming/XPhone/micro/stm/XPhone/Utilities/STM32F4xx_Nucleo_144" -I"A:/Programming/XPhone/micro/stm/XPhone/HAL_Driver/Inc" -I"A:/Programming/XPhone/micro/stm/XPhone/HAL_Driver/Inc/Legacy" -I"A:/Programming/XPhone/micro/stm/XPhone/CMSIS/core" -I"A:/Programming/XPhone/micro/stm/XPhone/CMSIS/device" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'note_hit':
+../src/main.c:107:2: warning: implicit declaration of function 'clock_out' [-Wimplicit-function-declaration]
+  clock_out(GPIOC,CLOCK,DATA,LATCH,8,0xff);
+  ^
+../src/main.c: At top level:
+../src/main.c:125:6: warning: conflicting types for 'clock_out'
+ void clock_out(GPIO_TypeDef* GPIOx, uint16_t clockPin, uint16_t dataPin, uint16_t latchPin, uint8_t bits, uint32_t data) {
+      ^
+../src/main.c:107:2: note: previous implicit declaration of 'clock_out' was here
+  clock_out(GPIOC,CLOCK,DATA,LATCH,8,0xff);
+  ^
+../src/main.c: In function 'main':
+../src/main.c:224:12: warning: unused variable 'T' [-Wunused-variable]
+   uint16_t T=512;
+            ^
+../src/main.c:216:7: warning: variable 'previousNotesPlayed' set but not used [-Wunused-but-set-variable]
+   int previousNotesPlayed[INPUT_PINS];
+       ^
+../src/main.c:215:9: warning: unused variable 'noteToPlay' [-Wunused-variable]
+   Note *noteToPlay = NULL;
+         ^
+../src/main.c:214:9: warning: unused variable 'currentSong' [-Wunused-variable]
+   Note *currentSong = init_note(KEY_TRACK_EMPTY, 0, 100);
+         ^
+../src/main.c: At top level:
+../src/main.c:59:26: warning: 'GPIO_InitStruct' defined but not used [-Wunused-variable]
+ static GPIO_InitTypeDef  GPIO_InitStruct;
+                          ^
+Finished building: ../src/main.c
+ 
+Building target: XPhone.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"A:\Programming\XPhone\micro\stm\XPhone\LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "XPhone.elf" @"objects.list"  
+Finished building target: XPhone.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "XPhone.elf" "XPhone.bin"
+arm-none-eabi-size "XPhone.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7924	   2128	   1700	  11752	   2de8	XPhone.elf
+ 
+
+19:49:57 Build Finished (took 2s.342ms)
+
